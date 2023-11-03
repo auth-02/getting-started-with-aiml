@@ -1,5 +1,3 @@
-# Contributing Guidelines
-
 ## How to Contribute
 
 1. Fork the repository to your GitHub account.
