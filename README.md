@@ -32,4 +32,4 @@ Structure of this repo:
     ... (and so on)
   - README.md
 
-## [How to contribute]( https://github.com/auth-02/CSI_AI-ML_23-24/blob/main/Contributing.md )
+## [How to contribute]( https://github.com/auth-02/CSI_AI-ML_23-24/blob/main/Contributing.md ) 👈
