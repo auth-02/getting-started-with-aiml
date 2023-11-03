@@ -7,20 +7,20 @@ Structure of this repo:
 - CSI_AI-ML_23-24'
 
   - Task 0
-    - Coordinator1
+    - Coordinator 1
       - Codespace
       - README.md
-    - Coordinator2
+    - Coordinator 2
       - Codespace
       - README.md
     ...
     - README.md (Task-specific instructions & Resources)
 
   - Task 1
-    - Coordinator1
+    - Coordinator 1
       - Codespace
       - README.md
-    - Coordinator2
+    - Coordinator 2
       - Codespace
       - README.md
     ...
