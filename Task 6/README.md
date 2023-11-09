@@ -1,7 +1,9 @@
 # Task 6
 
 Generative Adversarial Networks (GANs)
+
 Introduction to GANs and their use in generating data
+
 Building a GAN model for image generation with TensorFlow/Keras or Pytorch
 
 Task: Develop a GAN model to generate realistic images, such as faces or artworks.
@@ -10,6 +12,7 @@ Task: Develop a GAN model to generate realistic images, such as faces or artwork
 Resources:
 
 What is GANs?
+
 https://youtu.be/xBX2VlDgd4I?si=w0YOGVYL3Uv_THMv
 
 Docs/Blogs-
