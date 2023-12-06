@@ -13,9 +13,9 @@ Begin your journey with these insightful resources:
 
 Learn the art of manipulating data with NumPy arrays and Pandas DataFrames and visualize it with Matplotlib and Seaborn:
 
-- [NumPy and Pandas Basics](https://youtu.be/4c_mwnYdbhQ?si=ffLTeZ2qBbYe_AAI)
-- [Data Visualization with Matplotlib](https://youtu.be/OISfc1it7lc?si=dqH7_trcg6VpHYCO)
-- [Data Visualization with Seaborn](https://youtu.be/BN0nnnadFl0?si=KSaILd5mCepIPoQV)
+- [NumPy Basics](https://youtu.be/4c_mwnYdbhQ?si=ffLTeZ2qBbYe_AAI)
+- [NumPy basics (Hindi)](https://youtu.be/OISfc1it7lc?si=dqH7_trcg6VpHYCO)
+- [Data Exploration Pandas](https://youtu.be/BN0nnnadFl0?si=KSaILd5mCepIPoQV)
 
 ## Hands-On Practice
 
@@ -25,7 +25,7 @@ Put your skills into action by loading and manipulating a dataset using NumPy an
 
 Explore further with these detailed tutorials and playlists:
 
-- [NumPy and Pandas Tutorial Playlist](https://youtube.com/playlist?list=PLeo1K3hjS3uuASpe-1LjfG5f14Bnozjwy&si=z64rx8lXucJB0TaW)
+- [Pandas Tutorial Playlist](https://youtube.com/playlist?list=PLeo1K3hjS3uuASpe-1LjfG5f14Bnozjwy&si=z64rx8lXucJB0TaW)
 - [Matplotlib Tutorial](https://youtu.be/OZOOLe2imFo?si=kOkC9ZdcUGnJ7VgL)
 - [Seaborn Tutorial](https://youtu.be/ooqXQ37XHMM?si=XYYty-KpAugff5W0)
 
