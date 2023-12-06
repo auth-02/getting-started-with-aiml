@@ -28,7 +28,7 @@ Implementing K-Means clustering
 Task: Apply K-Means clustering to group data points based on similarity.
 
 
-Resources-
+## Resources-
 
 Github repo for ml algo from scratch -
 https://github.com/eriklindernoren/ML-From-Scratch/tree/master/mlfromscratch
