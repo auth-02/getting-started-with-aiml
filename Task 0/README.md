@@ -21,7 +21,7 @@ Now, let's explore the world of decision trees for classification! In this task,
 
 1. Understand the basics of decision trees: [Decision Tree Explanation](https://youtu.be/ZVR2Way4nwQ)
 2. Explore the implementation of decision trees: [Decision Tree Implementation](https://youtu.be/PHxYNGo8NcI)
-3. Get acquainted with the Iris dataset: [Iris Dataset Overview](https://drive.google.com/drive/folders/1nE-9BMPVt-xnc49BJpkKdirhmD7xy94O)
+3. Get acquainted with the Iris dataset: [Iris Dataset Overview](https://drive.google.com/drive/folders/1nE-9BMPVt-xnc49BJpkKdirhmD7xy94O?usp=sharing)
 
 ## Hands-On Implementation
 
