@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction</title>
+    <link rel="icon" type="image/svg" href="logo2.svg">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="introduction.css" />
+  </head>
+  <body>
+    <section id="introduction">
+        <div class="container">
+          <h2 class="section-heading">Introduction</h2>
+          <p class="section-description">
+            Our web application is designed to help users determine the safety of mobile apps available for download on Google Play Store. With the increasing use of mobile phones and mobile applications, it is crucial to ensure that users are downloading apps that are safe to use and not potentially harmful. Our application aims to address this need by analyzing app reviews on Google Play Store and providing users with recommendations on whether to download a particular app or not.
+          </p>
+          <p class="section-description">
+            The web app is built using Flask, a lightweight web framework, and uses MySQL to store user data. The app makes use of the Google Play Scraper API to scrape app reviews from Google Play Store and analyzes them using the Natural Language Processing (NLP) tool - SentimentIntensityAnalyzer. The tool is used to determine the sentiment of the reviews, i.e., whether they are positive or negative. Based on the sentiment analysis, the app determines whether the app is safe to download or not.
+          </p>
+          <p class="section-description">
+            The app interface is simple and easy to use. Users can input the name of the app they wish to download, and the app will analyze the reviews of the app and provide a recommendation on whether the app is safe to download or not. If the app has already been analyzed, the app will retrieve the stored recommendation and display it to the user. If the app has not been analyzed before, the app will scrape the app reviews and perform sentiment analysis to generate the recommendation.
+          </p>
+          <p class="section-description">
+            The app also displays a rating for the app based on the average rating of the app reviews. The app ratings are rounded to one decimal place for better readability. Additionally, the app generates a histogram to visually display the sentiment of the reviews. The histogram helps users understand the general sentiment of the reviews and makes it easier to interpret the recommendation provided by the app.
+          </p>
+          <p class="section-description">
+            Overall, our web app is a useful tool for users who want to ensure the safety of the apps they download from Google Play Store. The app provides a simple and effective way to analyze app reviews and generate recommendations on whether to download an app or not. Our app can be used by anyone who wants to download an app but is unsure of its safety. We believe that our web app will help users make informed decisions when it comes to downloading mobile apps, and ultimately, lead to a safer mobile app ecosystem.
+          </p>
+         
+        </div>
+      </section>
+  </body>
+</html>
+      

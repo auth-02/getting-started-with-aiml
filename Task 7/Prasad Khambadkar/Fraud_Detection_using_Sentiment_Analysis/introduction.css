@@ -1,0 +1,40 @@
+#introduction {
+    background-color: #f2f2f2;
+    padding: 5rem 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #1f194c;
+    margin-bottom: 2rem;
+  }
+  
+  .section-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #727b57;
+    margin-bottom: 3rem;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2c7bfe;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .cta-btn:hover {
+    background-color: #1e56e2;
+  }
+  
