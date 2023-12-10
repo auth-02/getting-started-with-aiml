@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How it Work's</title>
+    <link rel="icon" type="image/svg" href="logo2.svg">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="icon" type="image/svg" href="logo2.svg">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="introduction.css" />
+  </head>
+  <body>
+    <section id="introduction">
+        <div class="container">
+          <h2 class="section-heading">How it Work's</h2>
+          <p class="section-description">
+            The purpose of this web application is to determine if a given app on the Google Play Store is safe to download or not. The application uses Flask, a Python web framework, to create a web interface for the user to interact with. The application relies on several Python libraries to provide the functionality.
+          </p>
+          <p class="section-description">
+            The Google Play Scraper library retrieves reviews of the app in question, along with the review score given by each reviewer. These reviews are then analyzed using the Natural Language Toolkit (NLTK) library's SentimentIntensityAnalyzer. The SentimentIntensityAnalyzer determines if each review is positive or negative and assigns a sentiment score to each review.
+          </p>
+          <p class="section-description">
+            The review scores are then plotted using the Plotly Express library to show the number of positive and negative reviews. The sentiment scores are used to determine if the app is safe to download. If the number of positive reviews is greater than the number of negative reviews, the app is deemed safe to download, and a recommendation to download the app is made. If the number of negative reviews is greater than or equal to the number of positive reviews, the app is deemed not safe to download, and a recommendation to look for an alternative app is made.
+          </p>
+          <p class="section-description">
+            The app also displays a rating for the app based on the average rating of the app reviews. The app ratings are rounded to one decimal place for better readability. Additionally, the app generates a histogram to visually display the sentiment of the reviews. The histogram helps users understand the general sentiment of the reviews and makes it easier to interpret the recommendation provided by the app.
+          </p>
+          <p class="section-description">
+            Overall, this web application provides a useful tool for users to quickly determine the safety of apps on the Google Play Store. By leveraging various Python libraries, the application is able to provide accurate recommendations and ratings to users quickly and efficiently.
+          </p>
+         
+        </div>
+      </section>
+  </body>
+</html>
+      

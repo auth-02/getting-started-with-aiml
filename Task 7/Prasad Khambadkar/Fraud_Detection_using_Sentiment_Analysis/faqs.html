@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FAQ</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/svg" href="logo2.svg">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+	<link rel="stylesheet" type="text/css" href="faqs.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="mainheader"  >Frequently Asked Questions</h1>
+		<div class="accordion">
+			<div class="accordion-item">
+				<h2 class="accordion-header">What is fraud app detection? <i class="fa fa-chevron-down"></i></h2>
+				<div class="answer" >
+					<p>Fraud app detection is the process of identifying and preventing malicious mobile applications that can harm users, steal personal information, or cause financial loss.</p>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header">How does fraud app detection work? <i class="fa fa-chevron-down"></i></h2>
+				<div class="answer">
+					<p>Fraud app detection works by analyzing various aspects of mobile applications, such as their permissions, behavior, code, and reputation, to determine if they are malicious or suspicious. It uses various techniques such as static and dynamic analysis, machine learning, and reputation systems to identify and classify fraudulent apps.</p>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header">What are the common types of fraud apps? <i class="fa fa-chevron-down"></i></h2>
+				<div class="answer">
+					<p>Common types of fraud apps include phishing apps, fake antivirus apps, ransomware, banking trojans, adware, and spyware. These apps are designed to trick users into downloading and using them to steal their personal data, money, or other sensitive information.</p>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header">How can I protect myself from fraud apps? <i class="fa fa-chevron-down"></i></h2>
+				<div class="answer">
+					<p>To protect yourself from fraud apps, you should always download apps from trusted sources such as the official app stores. You should also read app reviews and ratings, check app permissions, and avoid downloading apps that ask for unnecessary access to your personal data or device features.</p>
+				</div>
+			</div>
+            <div class="accordion-item">
+				<h2 class="accordion-header">How can I report a fraud app? <i class="fa fa-chevron-down"></i></h2>
+				<div class="answer">
+					<p>You can report a fraud app by using the reporting feature provided by the app store or platform where you downloaded the app. You can also report it to the app developer or contact the customer support of the app store or platform to get help in reporting the app.</p>
+				</div>
+			</div>
+            <div class="accordion-item">
+				<h2 class="accordion-header">How can businesses protect their users from fraud apps? <i class="fa fa-chevron-down"></i></h2>
+				<div class="answer">
+					<p>Businesses can protect their users from fraud apps by implementing robust security measures such as app scanning, user education, and fraud detection systems. They can also collaborate with app stores and security vendors to detect and remove fraudulent apps from their platforms. Additionally, they can provide a secure channel for users to report suspicious apps or activities.</p>
+				</div>
+			</div>
+            <div class="accordion-item">
+				<h2 class="accordion-header">How accurate are fraud app detection systems? <i class="fa fa-chevron-down"></i></h2>
+				<div class="answer">
+					<p>The accuracy of fraud app detection systems depends on various factors such as the complexity of the app, the detection techniques used, and the quality of the data used for training the system. Generally, the more sophisticated and diverse the detection techniques are, the higher the accuracy of the system. However, no detection system is 100% accurate, and there is always a possibility of false positives or false negatives.</p>
+				</div>
+			</div>
+            <div class="accordion-item">
+				<h2 class="accordion-header">What is Sentiment Analysis? <i class="fa fa-chevron-down"></i></h2>
+				<div class="answer">
+					
+                    <p>Sentiment analysis, also known as opinion mining, refers to the use of natural language processing (NLP), text analysis, and computational linguistics to identify and extract subjective information from textual data. In other words, sentiment analysis involves analyzing a piece of text to determine whether the overall sentiment or emotion expressed is positive, negative, or neutral.</p>
+                    <p>Sentiment analysis can be used to analyze opinions, attitudes, and emotions expressed in a wide range of sources, including social media posts, customer reviews, news articles, and survey responses. The analysis can be applied to a single sentence, a paragraph, or an entire document, and the results can be used to gain insights into customer opinions, brand perception, or political sentiment.</p>
+                    <p>Sentiment analysis algorithms typically use machine learning techniques to classify the text as positive, negative, or neutral. These algorithms use a variety of features, such as word frequency, sentence structure, and context, to determine the sentiment of a text. While sentiment analysis is not always perfect, it can provide a valuable tool for companies and organizations looking to analyze large amounts of text data and gain insights into customer attitudes and opinions.</p>
+                </div>
+			</div>
+            <div class="accordion-item">
+				<h2 class="accordion-header">Why VADERS is used for Fraud Detection? <i class="fa fa-chevron-down"></i></h2>
+				<div class="answer">
+					
+                    <p>The Vader (Valence Aware Dictionary and sEntiment Reasoner) method is commonly used in sentiment analysis because it is a rule-based approach that can analyze and interpret the sentiment of a piece of text.</p>
+                    <p>In fraud detection, Vader can be used to analyze the sentiment of user reviews of an app or website to determine if there are any negative reviews that indicate fraudulent activity or a scam. For example, a large number of negative reviews that mention phishing attempts, suspicious activities or requests for personal information can be an indication of a fraudulent app.</p>
+                    <p>Vader can also be used to analyze social media feeds or other online sources to determine if there is any negative sentiment associated with an app or company. This information can be used to identify potential issues and investigate further. Overall, Vader is a valuable tool in fraud detection because it provides a quick and effective way to analyze the sentiment of large amounts of text data, which can help identify potential fraud and protect users.</p>
+                </div>
+			</div>
+            <div class="accordion-item">
+				<h2 class="accordion-header">Is VADERS more accurate than roBERTa, SVM and naive bayes? <i class="fa fa-chevron-down"></i></h2>
+				<div class="answer">
+					
+                    <p>It's not accurate to compare Vader directly with machine learning models like SVM and Naive Bayes, or even transformer-based models like RoBERTa. Vader is a rule-based sentiment analysis tool, whereas SVM and Naive Bayes are supervised learning models that require training on labeled data. RoBERTa is a pre-trained transformer model that can be fine-tuned on various tasks, including sentiment analysis.</p>
+                    <p>Vader is designed specifically for sentiment analysis of social media content and performs well in that domain. However, it may not perform as well on other types of text, such as formal documents or scientific articles. On the other hand, SVM and Naive Bayes can be trained on various types of data and can perform well on sentiment analysis tasks if trained on appropriate datasets.</p>
+                    <p>RoBERTa is a state-of-the-art transformer model and can achieve very high accuracy on sentiment analysis tasks if fine-tuned on the right dataset. However, fine-tuning a transformer model requires a significant amount of computational resources and labeled data, which may not always be available or feasible for certain applications.</p>
+                    <p>In summary, the choice of sentiment analysis method depends on the type of data, the task, and the available resources. Each method has its strengths and weaknesses, and the best approach would be to experiment with different methods and evaluate their performance on the specific task at hand.</p>
+                </div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.accordion-header').click(function() {
+				$(this).toggleClass('active');
+				$(this).siblings('.answer').slideToggle('fast');
+			});
+		});
+	</script>
+</body>
+</html>
