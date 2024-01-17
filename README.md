@@ -4,8 +4,6 @@ This is repo for all beginners who wanna get started in the field of AI/ML with 
 
 Structure of this repo:
 
-- CSI_AI-ML_23-24'
-
   - Task 0
     - Coordinator 1
       - Codespace
