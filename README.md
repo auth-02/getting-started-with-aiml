@@ -1,4 +1,4 @@
-# CSI_AI-ML_23-24
+# getting-started-with-aiml
 
 This is repo for all beginners who wanna get started in the field of AI/ML with all the resources you need to excel.
 
