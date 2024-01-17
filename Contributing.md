@@ -3,15 +3,15 @@
 1. Fork the repository to your GitHub account.
 2. Clone the forked repository to your local machine:
    ```
-   git clone https://github.com/your-username/CSI_AI-ML_23-24.git
+   git clone https://github.com/your-username/getting-started-with-aiml.git
    ```
-3. Change the directory to `CSI_AI-ML_23-24`:
+3. Change the directory to `getting-started-with-aiml`:
    ```
-   cd CSI_AI-ML_23-24
+   cd getting-started-with-aiml
    ```
 4. Add the original repository as a remote:
    ```
-   git remote add upstream https://github.com/auth-02/CSI_AI-ML_23-24.git
+   git remote add upstream https://github.com/auth-02/getting-started-with-aiml.git
    ```
 5. Keep your fork in sync with the upstream repository:
    ```
